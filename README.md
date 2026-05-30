@@ -18,23 +18,6 @@ Aplikasi mapping berbasis web yang memungkinkan pengguna menambahkan, mengelola,
 
 ---
 
-## Struktur Project
-
-```
-gmaps-app/
-├── index.php              # Halaman utama
-├── database.sqlite        # Database SQLite (auto-generated)
-├── api/
-│   └── records.php        # REST API (CRUD)
-└── assets/
-    ├── css/
-    │   └── style.css      # Stylesheet
-    └── js/
-        └── app.js         # (jQuery + Mapbox)
-```
-
----
-
 ## 🛠️ Teknologi
 
 - **Backend:** PHP + PDO SQLite
@@ -48,7 +31,7 @@ gmaps-app/
 ## Cara Instalasi & Menjalankan
 
 ### Prerequisites
-- PHP >= 7.4 dengan ekstensi `pdo_sqlite`
+- PHP dengan ekstensi `pdo_sqlite`
 - Web server (Apache / Nginx) atau PHP built-in server
 
 ### Langkah Instalasi
@@ -115,4 +98,5 @@ Base URL: `api/records.php`
 - Semua input di-sanitasi menggunakan prepared statements (SQL injection safe)
 - Mapbox token perlu diganti dengan token valid dari akun masing-masing
 
-*Dibuat untuk Test Teknis PT. Idekreatif Menusa Teknologi | Deadline: 31 Mei 2026*
+
+Dibuat untuk Test Teknis PT. Idekreatif Menusa Teknologi
