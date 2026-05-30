@@ -35,11 +35,6 @@ Aplikasi mapping berbasis web yang memungkinkan pengguna menambahkan, mengelola,
 ### Langkah Instalasi
 
 **1. Clone atau ekstrak project**
-```bash
-unzip georecord.zip -d georecord
-cd georecord
-```
-
 **2. Konfigurasi Mapbox Token**
 
 Buka file `assets/js/app.js`, cari baris:
@@ -57,7 +52,7 @@ php -S localhost:8080
 ```
 http://localhost:8080
 ```
-
+---
 ## Database Schema
 
 ```sql
@@ -73,7 +68,6 @@ CREATE TABLE records (
 );
 ```
 ---
-
 ## API Endpoints
 
 Base URL: `api/records.php`
@@ -88,6 +82,7 @@ Base URL: `api/records.php`
 | POST | `?action=update` | Update record (sertakan `id`) |
 | POST | `?action=delete` | Hapus record (sertakan `id`) |
 
+---
 ## Catatan Teknis
 
 - Database SQLite dibuat otomatis saat pertama kali diakses
