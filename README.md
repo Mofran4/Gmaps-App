@@ -35,6 +35,7 @@ Aplikasi mapping berbasis web yang memungkinkan pengguna menambahkan, mengelola,
 ### Langkah Instalasi
 
 **1. Clone atau ekstrak project**
+
 **2. Konfigurasi Mapbox Token**
 
 Buka file `assets/js/app.js`, cari baris:
