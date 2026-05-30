@@ -11,7 +11,7 @@ Aplikasi mapping berbasis web yang memungkinkan pengguna menambahkan, mengelola,
 | 1 | User dapat menambahkan data record (alamat, judul, detail kegiatan) | ✅ |
 | 2 | Setiap record muncul pada peta dengan marker khusus per kategori | ✅ |
 | 3 | Peta digeser akan menampilkan record berdasarkan area yang terlihat | ✅ |
-| 4 | Klik record di tabel → memunculkan infobox detail | ✅ |
+| 4 | Klik record di tabel akan memunculkan infobox detail | ✅ |
 | 5 | Filter data berdasarkan kategori | ✅ |
 
 ---
