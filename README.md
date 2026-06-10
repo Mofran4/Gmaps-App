@@ -90,5 +90,3 @@ Base URL: `api/records.php`
 - Data sample (8 lokasi di Bandung) di-seed otomatis jika database kosong
 - Semua input di-sanitasi menggunakan prepared statements (SQL injection safe)
 - Mapbox token perlu diganti dengan token valid dari akun masing-masing
-
-Dibuat untuk Test Teknis PT. Idekreatif Menusa Teknologi
